@@ -177,7 +177,7 @@ article#project-col{
 
 /* The sidebar menu */
 .sidenav {
-    width: 130px; /* Set the width of the sidebar */
+    width: 170px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 174px; /* Stay at the top */
@@ -218,6 +218,10 @@ article#project-col{
   width:50%;
 }
 
+#parkingapp{
+  width:30%
+}
+
 /* Contact */
 
 article#contact-col{
@@ -233,7 +237,8 @@ article#contact-col{
   header nav li,
   #boxes .box,
   article#main-col,
-  #visitkort{
+  #visitkort,
+  #parkingapp{
     float:none;
     text-align:center;
     width:100%;
