@@ -1,0 +1,258 @@
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#d4d4d4;
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.button_1{
+  height:38px;
+  background:#e8491d;
+  border:0;
+  padding-left:20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+.dark{
+  padding:15px;
+  background:#2a2e31;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* Header */
+header{
+  background:#2a2e31;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:16px;
+}
+
+header h1 a{
+  text-transform:none;
+  font-size:30px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .hightlight, header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+}
+
+header h1 a:hover{
+  color:#ffffff;
+}
+
+/* Showcase */
+#showcase{
+  min-height:400px;
+  background:url('../img/ToXeRs-showcase.png') no-repeat 0 -350px;
+  text-align:center;
+  color:#ffffff;
+}
+
+#showcase h1{
+  margin-top:60px;
+  font-size:55px;
+  margin-bottom: 10px;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+/* Newsletter */
+#greyspace{
+  padding:20px;
+  color:#ffffff;
+  background:#2a2e31;
+}
+
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align:center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:125px;
+}
+
+/* About */
+article#main-col{
+  margin:auto;
+  width:80%;
+}
+
+article#second-col{
+  margin:auto;
+  width:80%;
+}
+
+article#third-col{
+  margin:auto;
+  text-align:center;
+  width:80%;
+}
+
+article#uddannelser{
+  margin:auto;
+  text-align:center;
+  width:80%;
+  font-size:30px;
+}
+
+/* Projects */
+ul#projects li{
+  list-style:none;
+  padding:20px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+  border:#cccccc solid 1px;
+  border-bottom:#e8491d 10px solid;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align:center;
+}
+
+article#project-col{
+  width:70%;
+  margin:auto;
+}
+
+/* The sidebar menu */
+.sidenav {
+    width: 130px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 174px; /* Stay at the top */
+    left: 20px;
+    background-color: #2a2e31;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    border:#cccccc solid 2px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    background-color: #e8491d;
+}
+
+/* Projekter titel */
+.sidenav p{
+  margin: 0;
+  padding-left: 16px;
+  padding-bottom: 10px;
+  font-weight:bold;
+  color:#ffffff;
+  font-size:20px;
+  text-decoration: underline;
+}
+
+/* Picture Settings */
+#visitkort{
+  width:50%;
+}
+
+/* Contact */
+
+article#contact-col{
+  width:80%;
+  margin:auto;
+  text-align:center;
+}
+
+/* Media Queries */
+@media(max-width:768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #boxes .box,
+  article#main-col,
+  #visitkort{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  article#project-col{
+    width:100%;
+  }
+
+  .sidenav{
+    display:none;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+}
