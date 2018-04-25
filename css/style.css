@@ -256,7 +256,9 @@ article#contact-col{
   #visitkort,
   #parkingapp,
   #pathofexile,
-  #spilanmeldelse{
+  #spilanmeldelse,
+  #avisartikel,
+  #blockout{
     float:none;
     text-align:center;
     width:100%;
