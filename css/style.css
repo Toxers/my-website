@@ -219,7 +219,23 @@ article#project-col{
 }
 
 #parkingapp{
-  width:30%
+  width:30%;
+}
+
+#pathofexile{
+  width:75%;
+}
+
+#spilanmeldelse{
+  width:75%;
+}
+
+#avisartikel{
+  width:100%;
+}
+
+#blockout{
+  width:100%;
 }
 
 /* Contact */
@@ -238,7 +254,9 @@ article#contact-col{
   #boxes .box,
   article#main-col,
   #visitkort,
-  #parkingapp{
+  #parkingapp,
+  #pathofexile,
+  #spilanmeldelse{
     float:none;
     text-align:center;
     width:100%;
