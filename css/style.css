@@ -90,26 +90,27 @@ header h1 a:hover{
 /* Showcase */
 #showcase{
   min-height:400px;
-  background:url('../img/ToXeRs-showcase.png') no-repeat 0 -350px;
+  background:url('../img/Showcase_1.png') no-repeat 0;
   text-align:center;
   color:#ffffff;
 }
 
 #showcase h1{
-  margin-top:60px;
+  margin-top:120px;
   font-size:55px;
-  margin-bottom: 10px;
+  margin-bottom:-20px;
+  padding-left:1010px;
 }
 
 #showcase p{
   font-size:20px;
+  padding-left:1010px;
 }
 
-/* Newsletter */
-#greyspace{
-  padding:20px;
-  color:#ffffff;
-  background:#2a2e31;
+/* Orangespace */
+#orangespace{
+  padding:2px;
+  background:#e8491d;
 }
 
 /* Boxes */
@@ -280,8 +281,19 @@ article#contact-col{
     padding-bottom:20px;
   }
 
+  #showcase{
+    background:url('../img/Showcase_2.png') no-repeat 0;
+  }
+
   #showcase h1{
-    margin-top:40px;
+    margin-top:120px;
+    font-size:55px;
+    margin-bottom:-20px;
+    padding-left:0px;
+  }
+
+  #showcase p{
+    padding-left:0px;
   }
 
 }
