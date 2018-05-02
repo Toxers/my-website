@@ -34,6 +34,14 @@ ul{
   margin-bottom:10px;
 }
 
+.dark2{
+  padding:8px;
+  background:#545c62;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
 /* Header */
 header{
   background:#2a2e31;
@@ -178,20 +186,16 @@ article#project-col{
 
 /* The sidebar menu */
 .sidenav {
-    width: 170px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 174px; /* Stay at the top */
-    left: 20px;
+
+    text-align:center;
     background-color: #2a2e31;
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
+    padding-top: 10px;
     border:#cccccc solid 2px;
 }
 
 /* The navigation menu links */
 .sidenav a {
-    padding: 6px 8px 6px 16px;
+    padding: 6px 8px 6px 0px;
     text-decoration: none;
     font-size: 20px;
     color: #ffffff;
@@ -201,17 +205,6 @@ article#project-col{
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
     background-color: #e8491d;
-}
-
-/* Projekter titel */
-.sidenav p{
-  margin: 0;
-  padding-left: 16px;
-  padding-bottom: 10px;
-  font-weight:bold;
-  color:#ffffff;
-  font-size:20px;
-  text-decoration: underline;
 }
 
 /* Picture Settings */
@@ -271,10 +264,6 @@ article#contact-col{
 
   article#project-col{
     width:100%;
-  }
-
-  .sidenav{
-    display:none;
   }
 
   header{
