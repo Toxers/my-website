@@ -186,10 +186,10 @@ article#project-col{
 
 /* The sidebar menu */
 .sidenav {
-
     text-align:center;
     background-color: #2a2e31;
     padding-top: 10px;
+    padding-bottom:10px;
     border:#cccccc solid 2px;
 }
 
