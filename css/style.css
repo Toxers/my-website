@@ -36,10 +36,22 @@ ul{
 
 .dark2{
   padding:8px;
-  background:#545c62;
+  background:#484f54;
   color:#ffffff;
   margin-top:10px;
   margin-bottom:10px;
+  font-size:20px;
+}
+
+.dark3{
+  padding:15px;
+  background:#1b1e20;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+  color:#e8491d;
+  text-align:center;
+  font-size:30px;
 }
 
 /* Header */
@@ -187,10 +199,9 @@ article#project-col{
 /* The sidebar menu */
 .sidenav {
     text-align:center;
-    background-color: #2a2e31;
+    background-color: #34393d;
     padding-top: 10px;
     padding-bottom:10px;
-    border:#cccccc solid 2px;
 }
 
 /* The navigation menu links */
@@ -244,6 +255,10 @@ article#contact-col{
   text-align:center;
 }
 
+/* About me - Picture */
+img#me{
+
+}
 /* Media Queries */
 @media(max-width:768px){
   header #branding,
