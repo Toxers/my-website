@@ -36,16 +36,32 @@ ul{
 
 .dark2{
   padding:8px;
-  background:#484f54;
+  background:#363b3f;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.dark3{
+  padding:15px;
+  background:#495055;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.dark-about{
+  padding:15px;
+  background:#495055;
   color:#ffffff;
   margin-top:10px;
   margin-bottom:10px;
   font-size:20px;
 }
 
-.dark3{
+.dark-titel{
   padding:15px;
-  background:#1b1e20;
+  background:#353a3e;
   color:#ffffff;
   margin-top:10px;
   margin-bottom:10px;
@@ -199,7 +215,7 @@ article#project-col{
 /* The sidebar menu */
 .sidenav {
     text-align:center;
-    background-color: #34393d;
+    background-color: #495055;
     padding-top: 10px;
     padding-bottom:10px;
 }
